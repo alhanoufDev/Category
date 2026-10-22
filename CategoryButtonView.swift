@@ -14,11 +14,11 @@ struct CategoryButtonView: View {
     var body: some View {
         Button(action: action) {
             HStack {
-                            // النصوص على اليسار
+                           
                             VStack(alignment: .leading, spacing: 4) {
                                 Text(title)
                                     .font(.system(size: 24, weight: .bold))
-                                    .foregroundColor(Color(red: 0.15, green: 0.25, blue: 0.15)) // لون فريد قريب للغلاف
+                                    .foregroundColor(Color(red: 0.15, green: 0.25, blue: 0.15)) 
                                 
                                 Text(subtitle)
                                     .font(.system(size: 13))
