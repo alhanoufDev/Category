@@ -17,7 +17,7 @@ struct CategoryButtonView: View {
                            
                             VStack(alignment: .leading, spacing: 4) {
                                 Text(title)
-                                    .font(.system(size: 24, weight: .bold))
+                                    .font(.system(size: 20, weight: .bold))
                                     .foregroundColor(Color(red: 0.15, green: 0.25, blue: 0.15)) 
                                 
                                 Text(subtitle)
@@ -46,6 +46,7 @@ struct CategoryButtonView: View {
                         .shadow(color: Color.black.opacity(0.05), radius: 5, x: 0, y: 3)
                     }
         .padding(.horizontal, 20)
+        .padding(.vertical, 4)
                 }
         }
     
